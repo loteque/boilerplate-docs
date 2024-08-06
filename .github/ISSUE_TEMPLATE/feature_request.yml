@@ -8,7 +8,7 @@ body:
   - type: "textarea"
     id: "feature_concern"
     attributes:
-      label: "concern/concept"
+      label: "concern"
       description: "Describe the problem or concept which the feature does address"..
       placeholder: "Describe the concern here"
     validations:
@@ -16,7 +16,7 @@ body:
   - type: "textarea"
     id: "feature"
     attributes:
-      label: "feature description"
+      label: "feature"
       description: "Describe the feature as it address the concern or addressable" concept(s)
       placeholder: "Describe the feature here"
     validations:
