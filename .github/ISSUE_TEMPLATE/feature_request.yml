@@ -1,30 +1,29 @@
-name: Feature Request
-description: Submit your feature request
-title: "Submit your feature request"
+name: "Feature Request"
+about: "Submit your feature request"
 labels: "Enhancement"
-assignees: []
-projects: ""
+# assignees: []
+# projects: ""
 
 body:
-  - type: textarea
-    id: feature_concern
+  - type: "textarea"
+    id: "feature_concern"
     attributes:
-      label: concern/concept
-      description: Describe the problem or concept which the feature does address..
-      placeholder: Describe the concern here
+      label: "concern/concept"
+      description: "Describe the problem or concept which the feature does address"..
+      placeholder: "Describe the concern here"
     validations:
       required: true
-  - type: textarea
-    id: feature
+  - type: "textarea"
+    id: "feature"
     attributes:
-      label: Feature
-      description: Describe the feature as it address the concern or addressable concept(s)
-      placeholder: Describe the feature here
+      label: "feature description"
+      description: "Describe the feature as it address the concern or addressable" concept(s)
+      placeholder: "Describe the feature here"
     validations:
       required: true
-  - type: input
-    id: email
+  - type: "input"
+    id: "email"
     attributes:
-      label: Email
-      description: Enter your email address if you are okay with us contacting you for clarification on your feedback.
-      placeholder: Your email address
+      label: "email"
+      description: "Enter your email address if you are okay with us contacting you for clarification on your feedback.
+      placeholder: "Your email address"
